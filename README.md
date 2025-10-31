@@ -13,7 +13,7 @@
 ## 安装
 
 ```bash
-pip install -e .
+pip install .
 ```
 
 ## 使用示例
