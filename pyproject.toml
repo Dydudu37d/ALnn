@@ -1,0 +1,46 @@
+[project]
+name = "ALnn"
+version = "0.0.1"
+description = "一个基于Numpy的神经网络库"
+authors = [
+    {name = "Andylisg", email = "lifuan666@gmail.com"},
+]
+readme = "README.md"
+license = {text = "MIT License"}
+requires-python = ">=3.6"
+keywords = ["nn","load_num_data","MiniCNN","MultiLogicNet"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "colorama",
+]
+
+[project.optional-dependencies]
+dev = [
+    "numba",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Dydudu37d/ALnn"
+"Bug Reports" = "https://github.com/Dydudu37d/ALnn/issues"
+"Source" = "https://github.com/Dydudu37d/ALnn"
+
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
